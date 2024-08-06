@@ -9,7 +9,9 @@ function App() {
   return (
     
    <>
+  
    <Navbar/>
+   
 <Routes>
   <Route path='/' element={<MovieList/>}/>
   <Route path='/add' element={<MovieAdd/>}/>

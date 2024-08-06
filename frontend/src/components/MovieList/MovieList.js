@@ -25,7 +25,8 @@ function MovieList() {
   },[])
 
   return (
-    <div>
+    
+    <div className='movielist'>
       {Movie.map(el => (
         <MovieCard el={el} getMovie={getMovie} />
       ))}
